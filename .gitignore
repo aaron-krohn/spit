@@ -1,0 +1,5 @@
+__pycache__
+*.pyc
+*.sw?
+*.png
+shape_images/
