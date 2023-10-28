@@ -2,7 +2,7 @@
 
 A utility to create PNG files with simulations of rotating gears
 
-In its current form, it uses mathematical formulae describing circles that rotate inside or outside of other circles. They technical name for these drawings are [Hypotrochoids](https://en.wikipedia.org/wiki/Hypotrochoid) and [Epitrochoids](https://en.wikipedia.org/wiki/Epitrochoid), respectively.
+In its current form, it uses mathematical formulae describing circles that rotate inside or outside of other circles. The technical name for these drawings are [Hypotrochoids](https://en.wikipedia.org/wiki/Hypotrochoid) and [Epitrochoids](https://en.wikipedia.org/wiki/Epitrochoid), respectively.
 
 With circles, the math is pretty simple, so it's what is currently supported. Although simulating other types of shapes is considerably more difficult, it is something I would eventually like this library to support.
 
@@ -13,13 +13,15 @@ With circles, the math is pretty simple, so it's what is currently supported. Al
     --rotor-shape Disc40 \
     --fixed-shape Ring150 \
     --circumscription outer \
-    --output-file new_pic.png \
+    --output-file spiro.png \
     --bg-color 255 0 0 \
     --line-color 0 0 0 \
     --line-width 10 \
-    --pen-hole 5 \
-    --iterations 6200
+    --pen-hole 2 \
+    --iterations 15000
 ```
+
+![Disc 40, Ring 150, hole 2, 15k iterations](./spiro.png?raw=true)
 
 # Usage
 
